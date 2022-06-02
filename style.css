@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #141d2e;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    transition: 0.5s all;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#div-content {
+    width: 750px;
+    /* background-color: #1e2b48; */
+    height: 550px;
+}
+
+#header-div {
+    display: flex;
+}
+
+#header-div1 {
+    width: 50%;
+}
+
+#header-div2 {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    cursor: pointer;
+    display: flex;
+    margin-top: 19px;
+    height: fit-content;
+}
+
+.button span {
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+
+}
+
+.button img {
+    padding-left: 15px;
+    margin-top: 2px;
+}
+
+#header-div2 button {
+    background-color: transparent;
+    border: none;
+    height: 40px;
+
+}
+
+.search-div {
+    width: 100%;
+    height: 65px;
+    background-color: #1e2b48;
+    transition: 0.5s all;
+    border-radius: 15px;
+}
+
+.search-container {
+    width: 95%;
+    margin-left: 2.5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.search-div1 {
+    width: 7%;
+}
+
+.search-div2 {
+    width: 75%;
+
+}
+
+.search-div3 {
+    width: 18%;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+}
+
+#user {
+    width: 98%;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+    outline: none;
+    font-family: 'Space Mono', monospace;
+    color: white;
+}
+
+
+#user::placeholder {
+    font-family: 'Space Mono', monospace;
+    font-size: 17px;
+    color: white;
+    letter-spacing: 1.5px;
+    background-color: transparent;
+
+}
+
+.search-div3 input {
+    width: 100%;
+    height: 100%;
+    background-color: #07f;
+    border-radius: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.main-stats {
+    background-color: #1e2b48;
+    width: 100%;
+    height: 395px;
+    margin-top: 15px;
+    transition: 0.5s all;
+    border-radius: 20px;
+}
+
+.box-shadow {
+    box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.1986);
+}
+
+.main-container {
+    width: 90%;
+    margin-left: 5%;
+    height: 100%;
+}
+
+.profile-1 {
+    width: 100%;
+    height: 85%;
+    margin-top: 30px;
+    float: left;
+}
+
+.first-p img {
+    width: 120px;
+    border-radius: 100px;
+}
+
+.cnt {
+    display: flex;
+}
+
+.first-p {
+    width: auto;
+}
+
+.second-p {
+    width: 100%;
+}
+
+.second-p-container {
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+    display: flex;
+
+}
+
+.second-p h2 {
+    margin: 0;
+}
+
+.basic-p {
+    width: 50%;
+    height: auto;
+
+}
+
+#js_twitter {
+    margin-left: 5px;
+}
+
+.join {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: auto;
+}
+
+.join span {
+    margin-top: 5px;
+    float: left;
+}
+
+.some-info {
+    background-color: #141d2e;
+    border-radius: 15px;
+    height: 100px;
+    display: flex;
+    align-content: center;
+    transition: 0.5s all;
+    margin-top: 0px;
+}
+
+.some-info-container {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.sic1 {
+    width: 33%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.sic2 {
+    width: 33%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.sic3 {
+    width: 33%;
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+.main-stats h3 {
+    margin: 0;
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    font-family: 400;
+}
+
+.last-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    margin-top: 20px;
+    grid-template-rows: auto;
+    row-gap: 10px;
+}
+
+.basic-p a {
+    color: #07f;
+}
+
+.some-info span {
+    font-size: 20px;
+    font-weight: 700;
+}
+.some-info h3{
+    font-weight: 400;
+}
+.last-info a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.mobile {
+    display: none;
+}
+
+.last-info span {
+    margin-left: 10px;
+}
+
+.container-c {
+    width: 75%;
+    margin-left: 22%;
+}
+
+@media screen and (max-width:800px) {
+    .js_bio {
+        display: none;
+    }
+
+    .second-p-container {
+        flex-direction: column;
+    }
+
+    .join {
+        justify-content: flex-start;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    #div-content {
+        width: 600px;
+        height: auto;
+        padding: 20px;
+
+    }
+
+    .container-c {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .main-stats {
+        padding-bottom: 50px;
+    }
+
+    .basic-p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #avatar_js {
+        width: 80px;
+    }
+
+    #user-txt {
+        font-size: 17px;
+    }
+
+    #link {
+        font-size: 13px;
+    }
+
+    #js_join {
+        font-size: 13px;
+    }
+
+    .js_bio {
+        font-size: 13px;
+    }
+
+    .last-info {
+        grid-template-columns: repeat(1, 1fr);
+        height: auto;
+        margin-top: 20px;
+        grid-template-rows: auto;
+        row-gap: 10px;
+    }
+
+    #user::placeholder {
+        font-size: 13px;
+    }
+
+    .last-info span {
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .last-info a {
+        font-size: 13px;
+        margin: 0;
+    }
+
+    #location_img {
+        width: 17px;
+    }
+
+    #js_twitter {
+        margin-left: 0px;
+    }
+
+    #submit {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .search-div1 {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .search-div2 {
+        width: 75%;
+
+    }
+
+    .search-div3 {
+        width: 25%;
+        height: 55px;
+        border-radius: 10px;
+        border: none;
+    }
+
+    .search-div1 img {
+        width: 20px;
+    }
+
+}
