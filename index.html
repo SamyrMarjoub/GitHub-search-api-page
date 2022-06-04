@@ -5,108 +5,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Github - Search</title>
+    <title>JogoDaVelha</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="container">
-        <div id="div-content">
-            <div id="header-div">
-                <div id="header-div1">
-                    <h2 id="devfinder-h2">devfinder</h2>
-                </div>
-                <div id="header-div2">
-                    <div class="button">
-                        <div><span id="text-color-theme">LIGHT</span> </div>
-                        <div><img src="./images/icon-sun.svg" alt="" id="toggle-image"></div>
+    <div class="container-main-flex">
+        <div class="container">
+            <div class="first-tela">
+                <div class="first-div">
+                    <div>
+                        <img src="./images/logo.svg" alt="" id="logo_img">
                     </div>
                 </div>
-            </div>
-            <div class="search-div">
-                <div class="search-container">
-                    <div class="search-div1"><img src="./images/icon-search.svg" alt=""> </div>
-                    <div class="search-div2">
-                        <form action="#" id="form" method="get">
-                            <input type="text" placeholder="Search GitHub username..." id="user" autocomplete="off">
-                    </div>
-                    <div class="search-div3"> <input type="submit" value="Search" id="submit">
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="main-stats">
-                <div class="main-container">
-                    <div class="profile-1">
-                        <div class="cnt">
-                            <div class="first-p"> <img src="./images/gitimage.png" alt="" id="avatar_js"> </div>
-                            <div class="second-p">
-                                <div class="second-p-container">
-                                    <div class="basic-p">
-                                        <h2 id="user-txt">The Octocat</h2>
-                                        <a href="" id="link" style="text-decoration: none;" target="_blank" e
-                                            rel="noopener noreferrer">@octocat</a>
-                                        <p class="js_bio">This profile has no bio.</p>
-
-                                    </div>
-                                    <div class="join">
-                                        <span id="js_join">Joined <id id="day">25</id>
-                                            <id id="month">Jan</id>
-                                            <id id="year">2011</id>
-                                        </span>
-                                    </div>
+                <div class="second-div">
+                    <div class="second-div-container">
+                        <div class="second-div-first">
+                            <h3>PICK PLAYER 1'S MARK</h3>
+                        </div>
+                        <div class="container-buttons">
+                            <div class="container-buttons-margin">
+                                <div class="" id="button-transparent">
+                                    <img src="./images/icon-x-color.svg" alt="" id="img_x_pick">
+                                </div>
+                                <div id="button-color">
+                                    <img src="./images/icon-o-color.svg" alt="" id="img_o_pick">
                                 </div>
                             </div>
                         </div>
-                        <div class="container-c">
-                            <div>
-                                <p class="js_bio mobile">This profile has no bio.</p>
-                            </div>
-                            <div class="some-info">
-                                <div class="some-info-container">
-                                    <div class="sic1">
-                                        <div>
-                                            <h3 id="repo_js">Repo</h3>
-                                            <span id="js_repo">8</span>
-                                        </div>
-                                    </div>
-                                    <div class="sic2">
-                                        <div>
-                                            <h3 id="followers_js">Followers</h3>
-                                            <span id="js_followers">5978</span>
-                                        </div>
-                                    </div>
-                                    <div class="sic3">
-                                        <div>
-                                            <h3 id="following_js">Following</h3>
-                                            <span id="js_following">9</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="last-info">
-                                <div><img src="./images/icon-location.svg" alt="" id="location_img"> <span
-                                        id="js_location">San
-                                        Francisco</span> </div>
-                                <div><img src="./images/icon-website.svg" alt="" id="website_img"> <a
-                                        href="https://github.blog/" id="js_blog">https://github.blog/</a></div>
-                                <div><img src="./images/icon-twitter.svg" alt="" id="twitter_img"> <span
-                                         id="js_twitter">Not Available</span> </div>
-                                <div><img src="./images/icon-company.svg" alt="" id="company_img"> <a href=""
-                                        id="js_github">@github</a></div>
+                        <div class="div-warning">
+                            <h4>REMEMBER: X GOES FIRST</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="options-start">
+                    <div class="opt1"><button id="new-game-ia">NEW GAME (VS CPU)</button></div>
+                    <div class="opt2"><button id="new-game-human">NEW GAME (VS PLAYER)</button></div>
+                </div>
+            </div>
+            <div class="second-tela">
+                <div class="second-tela-first-div">
+                    <div class="second-logo"><img src="./images/logo.svg" alt=""> </div>
+                    <div class="turn-div">
+                        <div class="turn">
+                            <div class="turn-img"><img src="./images/icon-x-color.svg" alt=""></div>
+                            <div class="span-img">
+                                <span>TURN</span>
                             </div>
                         </div>
-
                     </div>
+                    <div class="restart-div">
+                        <div class="restart">
+                            <img src="./images/icon-restart.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="tictactoe">
+                    <div class="a q1"> <img src="" alt="" class="img"> </div>
+                    <div class="a q2"> <img src="" alt="" class="img2"> </div>
+                    <div class="a q3"> <img src="" alt="" class="img3"> </div>
+                    <div class="a q4"> <img src="" alt="" class="img4"> </div>
+                    <div class="a q5"> <img src="" alt="" class="img5"> </div>
+                    <div class="a q6"> <img src="" alt="" class="img6"> </div>
+                    <div class="a q7"> <img src="" alt="" class="img7"> </div>
+                    <div class="a q8"> <img src="" alt="" class="img8"> </div>
+                    <div class="a q9"> <img src="" alt="" class="img9"></div>
+                </div>
+                <div class="score-div">
+                    <div class="s1">
+                        <span>X(CPU)</span>
+                        <h3>0</h3>
+                    </div>
+                    <div class="s2">
+                        <span>TIES</span>
+                        <h3>0</h3>
+                    </div>
+                    <div class="s3">
+                        <span>O(YOU)</span>
+                        <h3>0</h3>
+                    </div>
+                </div>
+                <div class="msg-ia">
+                    <span>Your opponent is thinking <img src="./images/loading.gif" alt=""></span>
                 </div>
             </div>
         </div>
     </div>
-    </div>
-    </div>
     <script src="jquery-2.2.1.js"></script>
     <script src="script.js"></script>
-    <script src="darklight.js"></script>
 </body>
 
 </html>
